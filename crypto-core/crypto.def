@@ -1,0 +1,4 @@
+headers = encrypt_aes.h
+headerFilter = encrypt_aes.h
+
+compilerOpts = -I.
