@@ -2,3 +2,9 @@
 .vscode/
 **/data_type
 crypto_test
+.gradle/
+build/
+.kotlin/
+local.properties
+*.iml
+xcuserdata/
