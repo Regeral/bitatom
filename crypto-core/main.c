@@ -3,6 +3,7 @@
 #include <stdint.h>
 #include <stdlib.h>
 #include "GeneratPass.h"
+#include "password_hash.h"
 
 /* Function prototypes for the encryption module */
 int encrypt_data(const uint8_t *plaintext, size_t plaintext_len,
