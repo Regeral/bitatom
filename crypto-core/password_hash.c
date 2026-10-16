@@ -7,7 +7,7 @@
 int hash_master_password(const char *password, char *output)
 {
     uint8_t hash[64];
-    crypto_sha512(hash,password, strlen(password));
+    crypto_sha512(hash, (const u_int8_t*)password, strlen(password));
 
     for (int i = 0; i < 32; i++) {
         sprintf(output + i * 2, "%02x", hash[i]);

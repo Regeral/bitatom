@@ -1,4 +1,3 @@
-headers = encrypt_aes.h
-headerFilter = encrypt_aes.h
-
+headers = encrypt_aes.h GeneratPass.h password_hash.h
+headerFilter = encrypt_aes.h GeneratPass.h password_hash.h
 compilerOpts = -I.
