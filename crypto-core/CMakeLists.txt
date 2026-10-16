@@ -15,3 +15,7 @@ set(SRC_FILES
 add_library(crypto_core STATIC ${SRC_FILES})
 
 target_include_directories(crypto_core PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+
+add_executable(crypto_test main.c)
+
+target_link_libraries(crypto_test PRIVATE crypto_core)
