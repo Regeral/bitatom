@@ -8,3 +8,8 @@ build/
 local.properties
 *.iml
 xcuserdata/
+crypto-core/build/
+# собранная DLL — артефакт сборки
+app/desktopApp/src/main/resources/win32-x86-64/
+
+*.dll
