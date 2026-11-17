@@ -13,3 +13,4 @@ crypto-core/build/
 app/desktopApp/src/main/resources/win32-x86-64/
 
 *.dll
+.idea/
