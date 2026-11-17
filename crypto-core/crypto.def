@@ -1,3 +1,4 @@
-headers = encrypt_aes.h GeneratPass.h password_hash.h
-headerFilter = encrypt_aes.h GeneratPass.h password_hash.h
+headers = crypto_api.h encrypt_aes.h GeneratPass.h password_hash.h
+headerFilter = crypto_api.h encrypt_aes.h GeneratPass.h password_hash.h
 compilerOpts = -I.
+staticLibraries = libcrypto_core.a
